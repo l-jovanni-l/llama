@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!---------------------
+Name: Jovanni Elias
+Coding 03
+Purpose: The purpose of the assignment is to create a working contact form with JavaScript.
+         It will accept a  first name, last name, email and subject section 
+         which is no longer than 64 characters. The message section will be limited to 1000 characters.
+
+Notes: This is the beginning of the assignment.
+--------------------->
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="favicon.gif" type="image/gif">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="background">
+        <header>
+            <a class="links nav" href="index.html">Home</a>
+        </header>
+        <h1>Contact Form</h1>
+        <div class="form">
+            <input type="text" id="zName" placeholder="Name" class="smallTextBox" maxlength="64" ><br>
+            <input type="text" id="email" placeholder="Email" class="smallTextBox" maxlength="64"><br>
+            <input type="text" id="reEmail" placeholder="Re-enter Email" class="smallTextBox" maxlength="64"><br>
+            <input type="text" id="subject" placeholder="Subject" class="smallTextBox" maxlength="64"><br>
+            <textarea id="message" placeholder="Message" class="bigTextBox" maxlength="1000"></textarea> <br>
+            <button type="button" class="button">Send</button>
+            <button type="button" class="button">Clear</button>
+        </div>
+    </body>
+</html>
